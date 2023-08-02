@@ -1,0 +1,168 @@
+/* Reset default styles */
+body, h1, h2, p, label, input,ul,li, textarea, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+ 
+  
+  /* Global styles */
+  body {
+    
+    background-color: #f2f2f2;
+  }
+  /*  */
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+/*  */
+  
+  h1 {
+    margin-bottom: 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .quote-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quote-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+
+
+  .cancel{
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+
+  /* / */
+  /* Style for the select element */
+select {
+    /* Add padding to give some space around the text */
+    padding: 8px;
+    /* Adjust the font size and family */
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    /* Set the border style, color, and radius */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* Set the background color and color of the text */
+    background-color: #fff;
+    color: #333;
+    /* Add a box-shadow to give the element some depth */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Set the width to 100% to make the select element fill the entire container */
+    width: 100%;
+    /* Add some space between the select element and other elements */
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the option elements inside the select */
+  select option {
+    /* Customize the appearance of the options */
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    /* Set the background color and color of the text */
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Optional: Style for when the select element is focused */
+  select:focus {
+    /* Add a border color to indicate focus */
+    border-color: #007bff;
+    /* Optional: Add a box-shadow to give it a more prominent focus effect */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.6);
+  }
+
+  
+  
+ 
+  /* //thazk you */
+  #thankYouMessage {
+    display: none;
+    text-align: center;
+  }
