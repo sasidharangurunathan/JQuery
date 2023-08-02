@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Logistic Per Ton Quote</title>
+  <link rel="stylesheet" href="./css/contact.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="Transport.html">Services</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+  
+    <h1 style="text-align: center;">Get a Quote - Logistic Per Ton</h1>
+  
+
+  <main>
+    <div class="quote-form">
+      
+      <form id="contactForm">
+        <h2>Fill in the details to get a quote</h2>
+        <div class="form-group">
+          <label for="from">From:</label>
+          <input type="text" id="from" name="from" required>
+        </div>
+        <div class="form-group">
+          <label for="to">To:</label>
+          <input value="ChennaiAllIndiaTransport" type="text" id="to" name="to" required>
+        </div>
+        <div class="form-group">
+          <label for="weight">Weight (in tons):</label>
+          <input value="15" type="number" id="weight" name="weight" min="15" required>
+        </div>
+        <div class="form-group">
+          <label for="product">Product Type:</label>
+          <select id="product">
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="orange">Orange</option>
+            <option value="grape">Grape</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="start">start Place:</label>
+          <input id="start" name="start" required></input>
+        </div>
+        <div class="form-group">
+          <label for="end">End Place</label>
+          <input id="end" name="end" required></input>
+        </div>
+        <div class="form-group">
+          <button type="submit">Get Quote</button>
+          <button class="cancel" type="button" onclick="getQuote()">Cancel</button>
+        </div>
+      </form>
+      <div id="thankYouMessage" class="hidden">
+        <h2>Thank You!</h2>
+        <p>Your form has been successfully submitted.</p>
+      </div>
+    </div>
+  </main>
+  
+  <script>
+    function getQuote() {
+     
+      location.reload();
+    }
+  </script>
+  <script src="contact.js"></script>
+
+  <footer>
+    <p>&copy; 2023 Logistic Company. All rights reserved.</p>
+  </footer>
+</body>
+</html>
